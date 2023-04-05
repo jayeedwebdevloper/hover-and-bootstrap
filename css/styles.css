@@ -1,0 +1,200 @@
+.card {
+    box-shadow: 0 0 5px #0000001c;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    height: 250px;
+}
+
+.card:hover .hover-effect {
+    bottom: 0;
+}
+
+.card:hover .hover-effect2 {
+    left: 0;
+}
+
+.card:hover .hover-effect3 {
+    right: 0;
+}
+
+.card:hover .hover-effect4 {
+    top: 0;
+}
+
+.card:hover .hover-effect5 {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.card:hover .hover-effect6 {
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+.item-box {
+    width: 100%;
+    height: 100%;
+}
+
+.item-my {
+    width: 100%;
+}
+
+.hover-effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    bottom: -100%;
+    transition: all 1s ease-in-out;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hover-effect2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    left: -100%;
+    transition: all 1s ease-in-out;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hover-effect3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    right: -100%;
+    transition: all 1s ease-in-out;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hover-effect4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    top: -100%;
+    transition: all 1s ease-in-out;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hover-effect5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transform: scale(0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hover-effect6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transform: rotate(0deg);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    background: #00000075;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+a.link {
+    color: rgb(255, 113, 113);
+}
+
+.link:visited {
+    color: rgb(2, 187, 249);
+}
+
+.space {
+    width: 100%;
+    height: 20px;
+}
+
+.link-btn {
+    height: 70px;
+    border-bottom: 1px solid #ffffff2c;
+    border-top: 1px solid #ffffff19;
+    margin-top: 4%;
+    transition: all 1s ease-in-out;
+    font-size: 20px;
+}
+
+.link-btn:hover {
+    border-bottom: 1px solid #ffffff0f;
+    border-top: 1px solid #ffffff0a;
+    background: #000000d6;
+}
+
+.purple {
+    background: #9101a8;
+}
+
+.html-85 {
+    width: 0;
+    color: transparent;
+    transition: all 1.5s ease;
+}
+
+
+.html-8:hover .html-85,
+.html:hover .html-85 {
+    width: 85%;
+    color: #000;
+    cursor: pointer;
+}
+
+.css-75 {
+    width: 0;
+    color: transparent;
+    transition: all 1.5s ease;
+}
+
+
+.css-8:hover .css-75,
+.css:hover .css-75 {
+    width: 75%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bootstrap-95 {
+    width: 0;
+    color: transparent;
+    transition: all 1.5s ease;
+}
+
+
+.bootstrap-8:hover .bootstrap-95,
+.bootstrap:hover .bootstrap-95 {
+    width: 95%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card img {
+        height: 150px;
+    }
+}

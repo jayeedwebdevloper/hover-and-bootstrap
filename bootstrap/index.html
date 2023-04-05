@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap By Jayeed</title>
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div id="loader"></div>
+    <!-- header -->
+    <header class="sticky-top">
+        <div class="container">
+            <nav id="navbar-example2" class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.png"
+                        alt="hot gadgets"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#category">categories</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact us</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px"
+        data-bs-smooth-scroll="true" class="scrollspy-example rounded-2" tabindex="0">
+
+        <!-- banner -->
+        <section id="banner" class="banner w-100 pt-5">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center text-center text-lg-start justify-content-center">
+                                <div class="col-12 col-md-6">
+                                    <h3>MackBook Pro</h3>
+                                    <p class="text-secondary text-justify">Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit.
+                                        Iusto minima
+                                        voluptate eius
+                                        magni ut omnis ea ipsa voluptas assumenda exercitationem. Lorem ipsum dolor sit
+                                        amet
+                                        consectetur adipisicing elit. Impedit natus molestiae nesciunt?</p>
+                                    <a href="#" class="btn btn-dark text-white">buy now</a>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-5 d-flex justify-content-center">
+                                    <img src="img/banner-products/slider1.png" class="d-block img-fluid"
+                                        alt="mack book">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center text-center text-lg-start justify-content-center">
+                                <div class="col-12 col-md-6">
+                                    <h3>Apple Sound-box</h3>
+                                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Iusto minima
+                                        voluptate eius
+                                        magni ut omnis ea ipsa voluptas assumenda exercitationem. Lorem ipsum dolor sit
+                                        amet
+                                        consectetur adipisicing elit. Impedit natus molestiae nesciunt?</p>
+                                    <a href="#" class="btn btn-dark text-white">buy now</a>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-5 d-flex justify-content-center">
+                                    <img src="img/banner-products/slider2.png" class="d-block img-fluid"
+                                        alt="mack book">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center text-center text-lg-start justify-content-center">
+                                <div class="col-12 col-md-6">
+                                    <h3>Sound-box</h3>
+                                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Iusto minima
+                                        voluptate eius
+                                        magni ut omnis ea ipsa voluptas assumenda exercitationem. Lorem ipsum dolor sit
+                                        amet
+                                        consectetur adipisicing elit. Impedit natus molestiae nesciunt?</p>
+                                    <a href="#" class="btn btn-dark text-white">buy now</a>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-5 d-flex justify-content-center">
+                                    <img src="img/banner-products/slider3.png" class="d-block img-fluid"
+                                        alt="mack book">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product -->
+        <section id="product" class="pt-5">
+            <div class="container">
+                <div class="phone">
+                    <div class="title d-flex justify-content-between align-items-center">
+                        <h2 class="text-dark-emphasis">smart phone</h2>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-4 pt-5">
+                            <div class="card-box text-center">
+                                <img class="img-fluid" src="img/phone/phone-1.png" alt="xiaomi-poco x2">
+                                <h4 class="pt-3 text-body">Xiaomi poco x2</h4>
+                                <h5 class="text-secondary pb-2">$300</h5>
+                                <a href="#" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pt-5">
+                            <div class="card-box text-center">
+                                <img class="img-fluid" src="img/phone/phone-2.png" alt="iphone 13 pro">
+                                <h4 class="pt-3 text-body">iPhone 13 pro</h4>
+                                <h5 class="text-secondary pb-2">$1300</h5>
+                                <a href="#" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pt-5">
+                            <div class="card-box text-center">
+                                <img class="img-fluid" src="img/phone/phone-3.png" alt="samsung note 10">
+                                <h4 class="pt-3 text-body">Galaxy Note 10</h4>
+                                <h5 class="text-secondary pb-2">$800</h5>
+                                <a href="#" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="laptop">
+                    <div class="title d-flex justify-content-between align-items-center">
+                        <h2 class="text-dark-emphasis">laptop</h2>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-4 pt-5">
+                            <div class="card-box text-center">
+                                <img class="img-fluid" src="img/laptop/product-1.png" alt="asus vivobook">
+                                <h4 class="pt-3 text-body">Asus vivoBook</h4>
+                                <h5 class="text-secondary pb-2">$1600</h5>
+                                <a href="#" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pt-5">
+                            <div class="card-box text-center">
+                                <img class="img-fluid" src="img/laptop/product-2.png" alt="lenovo ideapad">
+                                <h4 class="pt-3 text-body">lenovo ideapad</h4>
+                                <h5 class="text-secondary pb-2">$1100</h5>
+                                <a href="#" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pt-5">
+                            <div class="card-box text-center">
+                                <img class="img-fluid" src="img/laptop/product-3.png" alt="xiaomi note book">
+                                <h4 class="pt-3 text-body">xiaomi note book</h4>
+                                <h5 class="text-secondary pb-2">$1000</h5>
+                                <a href="#" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- category -->
+
+        <section id="category" class="category p-5">
+            <div class="container">
+                <h1 class="text-center text-body pb-2">category</h1>
+                <div class="line"></div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-12 col-md-6">
+                                <div class="card-box-2 text-center">
+                                    <img class="img-fluid" src="img/categories/bag.png" alt="bag">
+                                    <h3 class="pt-3">bag</h3>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="card-box-2 text-center">
+                                    <img class="img-fluid" src="img/categories/perfume.png" alt="perfume">
+                                    <h3 class="pt-3">perfume</h3>
+                                </div>
+                                <div class="card-box-2 text-center">
+                                    <img class="img-fluid" src="img/categories/shoe.png" alt="shoe">
+                                    <h3 class="pt-3">shoe</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img class="img-fluid" src="img/categories/pale-order.png" alt="shop">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1 class="text-dark-emphasis text-center pt-2">contact with us</h1>
+                        <div class="line2"></div>
+                        <div class="row">
+                            <div class="col-12 w-100 mx-auto">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" class="form-control mt-3" placeholder="First name"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" class="form-control mt-3" placeholder="Last name"
+                                            aria-label="Last name">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="email" class="form-control mt-3" id="inputEmail4"
+                                            placeholder="Email" aria-label="Email">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="number" class="form-control mt-3" id="inputNumber4"
+                                            placeholder="Phone number" aria-label="number">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control mt-3" placeholder="Leave a message here"
+                                                id="floatingTextarea2" style="height: 100px"></textarea>
+                                            <label for="floatingTextarea2">message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 mt-3">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="contact-logo p-5 mx-auto my-auto text-center h-100 d-inline-block w-100">
+                            <img src="img/logo-BODY.png" alt="hot-gadgets" class="w-50 mx-auto">
+                            <h2 class="pt-4 text-secondary">Feel free to tell us<br> what you need</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-3">
+                        <div id="about">
+                            <a href="index.html" class="pb-3 d-block"><img class="img-fluid" src="img/logo.png"
+                                    alt="hot gadgets"></a>
+                            <p class="text-success-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Id,
+                                adipisci impedit
+                                sequi aut
+                                exercitationem error voluptate a? Dolorum harum quo, perferendis eius voluptatum eos!
+                                Tempora officia quasi dolores excepturi ea!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3">
+                        <h2 class="text-secondary pb-4">privacy policy</h2>
+                        <ol class="text-primary-emphasis">
+                            <li>Secured</li>
+                            <li>Fast delivery</li>
+                            <li>money back guaranty</li>
+                            <li>12/7 support</li>
+                        </ol>
+                    </div>
+                    <div class="col-12 col-md-4 mt-3">
+                        <h2 class="text-secondary pb-4">our shipping point</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58396.39258232334!2d90.58856465402836!3d23.826615181330823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cbcc00000001%3A0x6d4a038c575c7158!2sShitalakhsa%20Waterfront%20Resort!5e0!3m2!1sen!2sbd!4v1680094527277!5m2!1sen!2sbd"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="signature pt-3 pb-3 mt-4 bg-secondary-subtle">
+                <div class="container">
+                    <h6 class="text-center pt-1 text-secondary">Bootstrap Website designed by jayeed</h6>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/custom.js"></script>
+    <script src="js/java.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
